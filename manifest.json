@@ -1,0 +1,21 @@
+{
+  "name": "Medium Unblocker",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Read Premium Medium Articles for Free.",
+  "icons": {
+    "128": "icons/icon.png"
+  },
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {},
+  "permissions": [
+    "tabs",
+    "*://medium.com/*",
+    "declarativeContent"
+  ]
+}
