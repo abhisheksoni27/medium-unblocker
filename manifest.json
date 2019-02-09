@@ -15,7 +15,7 @@
   "page_action": {},
   "permissions": [
     "tabs",
-    "*://medium.com/*",
+    "https://medium.com/*",
     "declarativeContent"
   ]
 }
