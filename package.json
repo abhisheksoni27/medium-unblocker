@@ -1,0 +1,11 @@
+{
+  "name": "medium-unblock",
+  "version": "0.0.1",
+  "description": "Read Premium Medium Articles for Free.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf medium.zip; zip --exclude \"*.git*\" \"**/.DS_Store\" -r medium.zip ."
+  },
+  "author": "Abhishek Soni",
+  "license": "MIT"
+}
